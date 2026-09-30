@@ -1,0 +1,13 @@
+# Crab Market index
+#
+# The registry `opencrabs crab search` reads. One dir per crab under
+# crabs/<name>/ (crab.toml + skills/). pin = the commit the version
+# below was published at.
+
+[[crabs]]
+name = "competitor-watch"
+version = "0.1.0"
+description = "Daily page-diff over watched URLs; reports only what changed"
+category = "monitor"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/competitor-watch"
