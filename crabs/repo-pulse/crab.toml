@@ -1,0 +1,8 @@
+name = "repo-pulse"
+version = "0.1.0"
+description = "Daily GitHub pulse over watched repos: new issues, PRs, releases and failed CI since last run, via gh. Speaks only when action is needed"
+category = "monitor"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/repo-pulse"

@@ -43,3 +43,42 @@ description = "Nightly git-hygiene audit over active repos: dirty trees, unpushe
 category = "monitor"
 repo = "https://github.com/moneyacademyKE/crab-market"
 path = "crabs/nightly-audit"
+[[crabs]]
+name = "site-canary"
+version = "0.1.0"
+description = "Daily uptime canary over a URL watchlist; tattles only on failures - silence means all green"
+category = "monitor"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/site-canary"
+
+[[crabs]]
+name = "repo-pulse"
+version = "0.1.0"
+description = "Daily GitHub pulse over watched repos: new issues, PRs, releases and failed CI since last run, via gh. Speaks only when action is needed"
+category = "monitor"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/repo-pulse"
+
+[[crabs]]
+name = "standup-crab"
+version = "0.1.0"
+description = "Daily internal standup draft: last-24h commits across active repos plus the in-flight ledger, distilled to Shipped / In flight / Blockers"
+category = "digest"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/standup-crab"
+
+[[crabs]]
+name = "changelog-scribe"
+version = "0.1.0"
+description = "Weekly release-notes drafts from commits since the last tag per repo, written as draft files - never published without owner approval"
+category = "document"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/changelog-scribe"
+
+[[crabs]]
+name = "critiquito"
+version = "0.1.0"
+description = "On-demand design critique: hierarchy, contrast, type and motion verdicts on a screenshot, URL or described UI, with concrete ranked fixes. Invoke as /critiquito <target>"
+category = "design"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/critiquito"

@@ -1,0 +1,8 @@
+name = "standup-crab"
+version = "0.1.0"
+description = "Daily internal standup draft: last-24h commits across active repos plus the in-flight ledger, distilled to Shipped / In flight / Blockers"
+category = "digest"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/standup-crab"

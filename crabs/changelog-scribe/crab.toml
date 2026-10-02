@@ -1,0 +1,8 @@
+name = "changelog-scribe"
+version = "0.1.0"
+description = "Weekly release-notes drafts from commits since the last tag per repo, written as draft files - never published without owner approval"
+category = "document"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/changelog-scribe"

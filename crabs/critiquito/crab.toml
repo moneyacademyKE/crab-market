@@ -1,0 +1,8 @@
+name = "critiquito"
+version = "0.1.0"
+description = "On-demand design critique: hierarchy, contrast, type and motion verdicts on a screenshot, URL or described UI, with concrete ranked fixes. Invoke as /critiquito <target>"
+category = "design"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/critiquito"

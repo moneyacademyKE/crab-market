@@ -1,0 +1,8 @@
+name = "site-canary"
+version = "0.1.0"
+description = "Daily uptime canary over a URL watchlist; tattles only on failures - silence means all green"
+category = "monitor"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/site-canary"
