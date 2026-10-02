@@ -59,3 +59,4 @@ path = "skills/competitor-watch"
 | Name | What it does |
 |---|---|
 | competitor-watch | Daily page-diff over a watched-URL list; reports only changes |
+| morning-newspaper | Daily morning digest over an RSS/YouTube source list; only what's new since the last edition |

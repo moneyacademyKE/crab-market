@@ -11,3 +11,11 @@ description = "Daily page-diff over watched URLs; reports only what changed"
 category = "monitor"
 repo = "https://github.com/moneyacademyKE/crab-market"
 path = "crabs/competitor-watch"
+
+[[crabs]]
+name = "morning-newspaper"
+version = "0.1.0"
+description = "Daily morning digest: pulls RSS/YouTube feeds, reports only what's new since the last edition"
+category = "digest"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/morning-newspaper"
