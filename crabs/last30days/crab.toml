@@ -1,0 +1,8 @@
+name = "last30days"
+version = "0.1.0"
+description = "On-demand opinion research with a hard 30-day recency window: dated events, attributed takes, sourced brief"
+category = "research"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/last30days"

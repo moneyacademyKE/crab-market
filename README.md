@@ -60,4 +60,6 @@ path = "skills/competitor-watch"
 |---|---|
 | competitor-watch | Daily page-diff over a watched-URL list; reports only changes |
 | morning-newspaper | Daily morning digest over an RSS/YouTube source list; only what's new since the last edition |
+| last30days | On-demand opinion research, hard 30-day recency window, every claim dated and sourced |
+| haggle-bot | SaaS spend audit from statements you hand it; draft-only cancellation scripts |
 | nightly-audit | Nightly git-hygiene audit over active repos (dirty/unpushed/behind); failures only, silence = all clear |

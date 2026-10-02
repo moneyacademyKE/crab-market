@@ -21,6 +21,22 @@ repo = "https://github.com/moneyacademyKE/crab-market"
 path = "crabs/morning-newspaper"
 
 [[crabs]]
+name = "last30days"
+version = "0.1.0"
+description = "On-demand opinion research with a hard 30-day recency window: dated events, attributed takes, sourced brief"
+category = "research"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/last30days"
+
+[[crabs]]
+name = "haggle-bot"
+version = "0.1.0"
+description = "SaaS spend audit over billing statements you provide: duplicates, hikes, seat creep, draft cancellation scripts (draft-only)"
+category = "finance"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/haggle-bot"
+
+[[crabs]]
 name = "nightly-audit"
 version = "0.1.0"
 description = "Nightly git-hygiene audit over active repos: dirty trees, unpushed commits, behind-remote drift. Reports failures only — silence means all clear"

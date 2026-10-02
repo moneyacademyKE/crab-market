@@ -1,0 +1,8 @@
+name = "haggle-bot"
+version = "0.1.0"
+description = "SaaS spend audit over billing statements you provide: duplicates, hikes, seat creep, draft cancellation scripts (draft-only)"
+category = "finance"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/haggle-bot"
