@@ -1,0 +1,8 @@
+name = "nightly-audit"
+version = "0.1.0"
+description = "Nightly git-hygiene audit over active repos: dirty trees, unpushed commits, behind-remote drift. Reports failures only — silence means all clear"
+category = "monitor"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/nightly-audit"

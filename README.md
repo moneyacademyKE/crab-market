@@ -60,3 +60,4 @@ path = "skills/competitor-watch"
 |---|---|
 | competitor-watch | Daily page-diff over a watched-URL list; reports only changes |
 | morning-newspaper | Daily morning digest over an RSS/YouTube source list; only what's new since the last edition |
+| nightly-audit | Nightly git-hygiene audit over active repos (dirty/unpushed/behind); failures only, silence = all clear |
