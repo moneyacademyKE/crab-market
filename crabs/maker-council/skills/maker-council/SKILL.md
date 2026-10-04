@@ -1,10 +1,10 @@
 ---
 name: maker-council
-description: Simulated personal board of advisors for founder and operator decisions - seats 3-5 operator personas chosen so their lenses collide, grounds each take in their documented positions, surfaces where they disagree, synthesizes a recommendation. Invoke as /council <question>.
+description: Simulated personal board of advisors for founder and operator decisions - seats 3-5 operator personas chosen so their lenses collide, grounds each take in their documented positions, surfaces where they disagree, synthesizes a recommendation. Invoke as /maker-council <question>.
 ---
 # maker-council
 
-No state, no schedule. Invoke: `/council <the decision or question>`.
+No state, no schedule. Invoke: `/maker-council <the decision or question>`.
 
 ## Session modes
 

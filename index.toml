@@ -1,8 +1,7 @@
 # Crab Market index
 #
 # The registry `opencrabs crab search` reads. One dir per crab under
-# crabs/<name>/ (crab.toml + skills/). pin = the commit the version
-# below was published at.
+# crabs/<name>/ (crab.toml + skills/).
 
 [[crabs]]
 name = "competitor-watch"
@@ -118,7 +117,7 @@ path = "crabs/unstuck"
 [[crabs]]
 name = "maker-council"
 version = "0.1.0"
-description = "A simulated board of advisors staffed by operator personas whose lenses collide: seats 3-5 for a real decision, surfaces the disagreement, synthesizes what changed. Invoke as /council <question>"
+description = "A simulated board of advisors staffed by operator personas whose lenses collide: seats 3-5 for a real decision, surfaces the disagreement, synthesizes what changed. Invoke as /maker-council <question>"
 category = "advisory"
 repo = "https://github.com/moneyacademyKE/crab-market"
 path = "crabs/maker-council"
