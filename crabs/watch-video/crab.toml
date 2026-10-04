@@ -1,0 +1,8 @@
+name = "watch-video"
+version = "0.1.0"
+description = "Transcribe and analyze video at chosen depth: transcript, visual (frame extraction + vision), or multimodal. YouTube, Loom, Vimeo, local files, anything yt-dlp supports. Invoke as /watch-video <url|path> [depth]"
+category = "media"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/watch-video"

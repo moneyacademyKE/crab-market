@@ -1,0 +1,8 @@
+name = "maker-council"
+version = "0.1.0"
+description = "A simulated board of advisors staffed by operator personas whose lenses collide: seats 3-5 for a real decision, surfaces the disagreement, synthesizes what changed. Labeled simulation. Invoke as /council <question>"
+category = "advisory"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/maker-council"

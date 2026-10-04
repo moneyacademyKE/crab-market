@@ -1,0 +1,8 @@
+name = "unstuck"
+version = "0.1.0"
+description = "The roadblock antidote: classifies what kind of impossible you actually hit, runs lateral-thinking techniques against it, returns viable angles with next actions - or an honest wall-is-load-bearing verdict. Invoke as /unstuck <blocker>"
+category = "productivity"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/unstuck"

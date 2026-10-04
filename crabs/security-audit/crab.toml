@@ -1,0 +1,8 @@
+name = "security-audit"
+version = "0.1.0"
+description = "Scored 0-100 security and CVE audit of a repo: dependency CVEs, secrets, auth surfaces, input handling, config. Findings ranked with file receipts. Report-only"
+category = "security"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/security-audit"

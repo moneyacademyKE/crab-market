@@ -1,0 +1,8 @@
+name = "read-book"
+version = "0.1.0"
+description = "Structured notes from books and long PDFs: chapter TL;DRs, key concepts, quotes with locators, action items. Modes: notes, summary, quotes, study. Invoke as /read-book <file|url> [mode]"
+category = "document"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/read-book"

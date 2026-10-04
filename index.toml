@@ -82,3 +82,43 @@ description = "On-demand design critique: hierarchy, contrast, type and motion v
 category = "design"
 repo = "https://github.com/moneyacademyKE/crab-market"
 path = "crabs/critiquito"
+
+[[crabs]]
+name = "security-audit"
+version = "0.1.0"
+description = "Scored 0-100 security and CVE audit of a repo: dependency CVEs, secrets, auth surfaces, input handling, config. Findings ranked with file receipts. Report-only. Invoke as /security-audit <repo-path>"
+category = "security"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/security-audit"
+
+[[crabs]]
+name = "read-book"
+version = "0.1.0"
+description = "Structured notes from books and long PDFs: chapter TL;DRs, key concepts, quotes with locators, action items. Modes: notes, summary, quotes, study. Invoke as /read-book <file|url> [mode]"
+category = "document"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/read-book"
+
+[[crabs]]
+name = "watch-video"
+version = "0.1.0"
+description = "Transcribe and analyze video at chosen depth: transcript, visual (frames + vision), multimodal. YouTube, Loom, Vimeo, local files, anything yt-dlp supports. Invoke as /watch-video <url|path> [depth]"
+category = "media"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/watch-video"
+
+[[crabs]]
+name = "unstuck"
+version = "0.1.0"
+description = "The roadblock antidote: classifies what kind of impossible you hit, runs lateral-thinking techniques, returns viable angles with next actions - or an honest wall-is-load-bearing verdict. Invoke as /unstuck <blocker>"
+category = "productivity"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/unstuck"
+
+[[crabs]]
+name = "maker-council"
+version = "0.1.0"
+description = "A simulated board of advisors staffed by operator personas whose lenses collide: seats 3-5 for a real decision, surfaces the disagreement, synthesizes what changed. Invoke as /council <question>"
+category = "advisory"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/maker-council"
