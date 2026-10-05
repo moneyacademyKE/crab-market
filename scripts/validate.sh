@@ -24,8 +24,21 @@ for d in crabs/*/; do
   grep -q "path = \"crabs/$name\"" index.toml || { echo "FAIL: $name not in index.toml"; fail=1; }
 done
 
+# 3. Content scan: no credentials, no machine-specific absolute paths.
+#    The registry is public — this gate runs on every push, over every
+#    tracked file (git grep = tracked-only, so workspace junk can't false-positive).
+#    /Users/ is the portability guard that would have caught the hardcoded
+#    home paths found in the Oct-2026 audit.
+scan_re='sk-[A-Za-z0-9_-]{20,}|sk-proj-[A-Za-z0-9_-]{20,}|AKIA[0-9A-Z]{16}|gh[pousr]_[A-Za-z0-9]{36}|github_pat_[A-Za-z0-9_]{20,}|xox[baprs]-[A-Za-z0-9-]{10,}|AIza[0-9A-Za-z_-]{35}|-----BEGIN (RSA |EC |OPENSSH |DSA |PGP )?PRIVATE KEY|/Users/[a-zA-Z0-9_-]+'
+scan_hits=$(git grep -nE "$scan_re" -- . 2>/dev/null)
+if [ -n "$scan_hits" ]; then
+  echo "FAIL: secret/portability scan hits:"
+  echo "$scan_hits"
+  fail=1
+fi
+
 if [ "$fail" -eq 0 ]; then
   n=$(grep -c '^\[\[crabs\]\]' index.toml)
-  echo "OK: $n crabs, index and packs coherent"
+  echo "OK: $n crabs, index and packs coherent, content scan clean"
 fi
 exit $fail
