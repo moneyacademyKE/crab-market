@@ -121,3 +121,11 @@ description = "A simulated board of advisors staffed by operator personas whose 
 category = "advisory"
 repo = "https://github.com/moneyacademyKE/crab-market"
 path = "crabs/maker-council"
+
+[[crabs]]
+name = "pstack"
+version = "0.15.15"
+description = "Cursor's pstack ported to crabs: 50 rigorous workflow + principle skills by Lauren Tan (MIT). architect, swarm, tdd, reflect, unslop, poteto-mode playbooks, 20 principle-* skills"
+category = "developer-tools"
+repo = "https://github.com/moneyacademyKE/crab-market"
+path = "crabs/pstack"

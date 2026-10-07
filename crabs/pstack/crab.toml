@@ -1,0 +1,156 @@
+name = "pstack"
+version = "0.15.15"
+description = "Cursor pstack ported to crabs: 50 rigorous workflow + principle skills by Lauren Tan (MIT). Write less, higher quality: architect, swarm, tdd, reflect, unslop, poteto-mode playbooks, 20 principle-* skills"
+category = "developer-tools"
+homepage = "https://github.com/moneyacademyKE/crab-market"
+
+[[skills]]
+path = "skills/architect"
+
+[[skills]]
+path = "skills/arena"
+
+[[skills]]
+path = "skills/automate-me"
+
+[[skills]]
+path = "skills/benchmark-checklist"
+
+[[skills]]
+path = "skills/blast-radius"
+
+[[skills]]
+path = "skills/bro"
+
+[[skills]]
+path = "skills/correct"
+
+[[skills]]
+path = "skills/create-verification-skill"
+
+[[skills]]
+path = "skills/figure-it-out"
+
+[[skills]]
+path = "skills/how"
+
+[[skills]]
+path = "skills/interrogate"
+
+[[skills]]
+path = "skills/maintain-verification-skill"
+
+[[skills]]
+path = "skills/make-bot-ui"
+
+[[skills]]
+path = "skills/no-comments"
+
+[[skills]]
+path = "skills/poteto-help"
+
+[[skills]]
+path = "skills/poteto-mode"
+
+[[skills]]
+path = "skills/principle-attack-the-premise"
+
+[[skills]]
+path = "skills/principle-boundary-discipline"
+
+[[skills]]
+path = "skills/principle-build-the-lever"
+
+[[skills]]
+path = "skills/principle-encode-lessons-in-structure"
+
+[[skills]]
+path = "skills/principle-exhaust-the-design-space"
+
+[[skills]]
+path = "skills/principle-experience-first"
+
+[[skills]]
+path = "skills/principle-explain-the-number"
+
+[[skills]]
+path = "skills/principle-fix-root-causes"
+
+[[skills]]
+path = "skills/principle-foundational-thinking"
+
+[[skills]]
+path = "skills/principle-guard-the-context-window"
+
+[[skills]]
+path = "skills/principle-laziness-protocol"
+
+[[skills]]
+path = "skills/principle-make-operations-idempotent"
+
+[[skills]]
+path = "skills/principle-migrate-callers-then-delete-legacy-apis"
+
+[[skills]]
+path = "skills/principle-minimize-reader-load"
+
+[[skills]]
+path = "skills/principle-model-the-domain"
+
+[[skills]]
+path = "skills/principle-never-block-on-the-human"
+
+[[skills]]
+path = "skills/principle-outcome-oriented-execution"
+
+[[skills]]
+path = "skills/principle-prove-it-works"
+
+[[skills]]
+path = "skills/principle-redesign-from-first-principles"
+
+[[skills]]
+path = "skills/principle-separate-before-serializing-shared-state"
+
+[[skills]]
+path = "skills/principle-sequence-verifiable-units"
+
+[[skills]]
+path = "skills/principle-subtract-before-you-add"
+
+[[skills]]
+path = "skills/principle-test-behavior-not-implementation"
+
+[[skills]]
+path = "skills/principle-type-system-discipline"
+
+[[skills]]
+path = "skills/recall"
+
+[[skills]]
+path = "skills/reflect"
+
+[[skills]]
+path = "skills/show-me-your-work"
+
+[[skills]]
+path = "skills/swarm"
+
+[[skills]]
+path = "skills/tdd"
+
+[[skills]]
+path = "skills/teach"
+
+[[skills]]
+path = "skills/technical-writing"
+
+[[skills]]
+path = "skills/typescript-best-practices"
+
+[[skills]]
+path = "skills/unslop"
+
+[[skills]]
+path = "skills/why"
+
